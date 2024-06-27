@@ -1,0 +1,34 @@
+version: '3.8'
+services:
+  block2-rest-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - ./.env
+    ports:
+      - "8080:8080"
+    environment:
+      DB_URL: ${DB_URL}
+      DB_PASSWORD: ${DB_PASSWORD}
+      DB_USERNAME: ${DB_USERNAME}
+    depends_on:
+      - postgres
+    networks:
+      - testnet
+  postgres:
+    image: postgres:latest
+    env_file:
+      - ./.env
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_DB: jacksong
+      POSTGRES_USER: ${DB_USERNAME}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    networks:
+      - testnet
+
+networks:
+  testnet:
+    external: true

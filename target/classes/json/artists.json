@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Led Zeppelin",
+    "country": "Britain"
+  },
+  {
+    "id": 2,
+    "name": "Eagles",
+    "country": "US"
+  },
+  {
+    "id": 3,
+    "name": "Nirvana",
+    "country": "US"
+  },
+  {
+    "id": 4,
+    "name": "John Lennon",
+    "country": "Britain"
+  },
+  {
+    "id": 5,
+    "name": "Michael Jackson",
+    "country": "US"
+  },
+  {
+    "id": 6,
+    "name": "Queen",
+    "country": "Britain"
+  },
+  {
+    "id": 7,
+    "name": "Bob Dylan",
+    "country": "US"
+  },
+  {
+    "id": 8,
+    "name": "Jimi Hendrix",
+    "country": "US"
+  },
+  {
+    "id": 9,
+    "name": "Pink Floyd",
+    "country": "Britain"
+  }
+]

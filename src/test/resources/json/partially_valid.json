@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Invalid Song 1",
+    "artist": {
+      "name": "Invalid Artist",
+      "country": "N/A"
+    },
+    "album": "",
+    "genres": "Invalid Genre",
+    "duration": -100,
+    "releaseYear": 2030
+  },
+  {
+    "title": "Invalid Song 2",
+    "artist": {
+      "name": "Another Invalid Artist",
+      "country": "Invalid Country"
+    },
+    "album": null,
+    "genres": null,
+    "duration": 0,
+    "releaseYear": 0
+  },
+  {
+    "title": "",
+    "artist": {
+      "name": "No Name Artist",
+      "country": "Valid Country"
+    },
+    "album": "Invalid Album",
+    "genres": "Invalid Genres, Extra, Invalid",
+    "duration": 500,
+    "releaseYear": 2023
+  },
+  {
+    "title": "Bohemian Rhapsody",
+    "artist": {
+      "name": "True Queen",
+      "country": "UK"
+    },
+    "album": "A Night at the Opera",
+    "genres": "Rock, Progressive Rock",
+    "duration": 354,
+    "releaseYear": 1975
+  }
+]
